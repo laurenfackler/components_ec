@@ -18,6 +18,7 @@ defmodule BreakdownWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    live "/example", ExampleLive, :play
   end
 
   # Other scopes may use custom stacks.
