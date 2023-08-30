@@ -18,7 +18,7 @@ config :breakdown, BreakdownWeb.Endpoint,
     layout: false
   ],
   pubsub_server: Breakdown.PubSub,
-  live_view: [signing_salt: "R8l6nroW"]
+  live_view: [signing_salt: "XCPCMqK+Q0B6616U8F1NgNSg3hnC9FgI"]
 
 # Configures the mailer
 #
