@@ -46,9 +46,9 @@ Don't save this for the last minute! There are a few dependencies that will give
 
 1. Fork this repository to your github account. 
 
-- Go to https://github.com/groxio-learning/components_ec_remote
+- Go to https://github.com/groxio-learning/components_ec
 - Click the `fork` button in the upper right corner
-- Navigate to *your local version* (at something like git@github.com:your-github-user/components_ec_remote.git. )
+- Navigate to *your local version* (at something like git@github.com:your-github-user/components_ec.git. )
 - Copy the clone address to your clipboard. In the upper right, click `clone or download` then `copy to clipboard`
 
 2. Clone your local version to your local machine. 
@@ -58,45 +58,45 @@ Don't save this for the last minute! There are a few dependencies that will give
 ```
 >  git clone <paste the url>
 ...clones repo...
-cd components_ec_remote
+cd components_ec
 ```
 
 - Verify your remote: 
 
 ```
 $ git remote -v
-> origin  https://github.com/your-user/components_ec_remote.git (fetch)
-> origin  https://github.com/your-user/components_ec_remote.git (push)
+> origin  https://github.com/your-user/components_ec.git (fetch)
+> origin  https://github.com/your-user/components_ec.git (push)
 ```
 
 
 - If there's no origin, set it. Make sure you *replace your-github-user*:
 
 ```
-components_ec_remote> git remote add origin https://github.com/your-github-user/components_ec_remote.git
+components_ec> git remote add origin https://github.com/your-github-user/components_ec.git
 ```
 
 - Verify your remote: 
 
 ```
 $ git remote -v
-> origin  https://github.com/your-user/components_ec_remote.git (fetch)
-> origin  https://github.com/your-user/components_ec_remote.git (push)
+> origin  https://github.com/your-user/components_ec.git (fetch)
+> origin  https://github.com/your-user/components_ec.git (push)
 ```
 
 - Set the upstream to the Groxio repo:
 
 ```
-components_ec_remote> git remote add upstream https://github.com/groxio-learning/components_ec_remote.git
+components_ec> git remote add upstream https://github.com/groxio-learning/components_ec.git
 ```
 
 - Verify the remotes: 
 
 ```
-> origin  https://github.com/your-user/components_ec_remote.git (fetch)
-> origin  https://github.com/your-user/components_ec_remote.git (push)
-> upstream  https://github.com/groxio-learning/components_ec_remote.git (fetch)
-> upstream  https://github.com/groxio-learning/components_ec_remote.git (push)
+> origin  https://github.com/your-user/components_ec.git (fetch)
+> origin  https://github.com/your-user/components_ec.git (push)
+> upstream  https://github.com/groxio-learning/components_ec.git (fetch)
+> upstream  https://github.com/groxio-learning/components_ec.git (push)
 ```
 
 3. Now check out your setup. Send me a pull request: Edit the file "pull_requests.md" and add your name: 
